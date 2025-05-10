@@ -2,6 +2,10 @@
 ##Then start by creating the namespace
 kubectl create namespace kaifa
 
+#Initialize Project
+yarn install
+
+
 ##Build instructions
 ##Before this, it might be necessary to use docker login 
 ## The credentials are nazmul4532brainstation and Void@4532 for dockerhub
